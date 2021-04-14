@@ -27,3 +27,5 @@
 1. Libovolně formulář nastyluj.
 
 1. Zvýrazni červenou barvou chybně vyplněná políčka. Jak stylovat špatně vyplněné políčka najdeš například zde: https://css-tricks.com/almanac/selectors/i/invalid/.
+
+1. Udělej z kódu veřejnou webovou stránku přes GitHub Pages nebo [Netlify Drop](https://app.netlify.com/drop) a vyzkoušej si vyplnit formulář na telefonu.
