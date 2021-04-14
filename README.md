@@ -22,6 +22,8 @@
 
 1. Vyzkoušej si formulář vyplnit a odeslat.
 
+1. Backend z adresy formular.itgirls.cz ti vypíše, jaká data obdržel. Zkontroluj, že jsou všechna.
+
 ## Bonus
 
 1. Libovolně formulář nastyluj.
