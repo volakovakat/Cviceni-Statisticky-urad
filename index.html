@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sběr dat</title>
+</head>
+<body>
+    <form action="http://formular.itgirls.cz/" method="POST">
+        <h1>Sběr dat</h1>
+    <label>Jméno:</label>
+    <input name="first-name" type="text" placeholder="John">
+    <label>Příjmení:</label>
+    <input name="surname" type="text" placeholder="Doe">
+    <br/>
+    <label>Datum narození:</label>
+    <input name="birthdate" type="date">
+    <br/>
+    <label>E-mail:</label>
+    <input name="email" type="email" placeholder="john@example.com">
+    <br/>
+    <label>Telefon:</label>
+    <input name="telephone" type="tel" placeholder="+420123456789">
+    <br/>
+    <label>Oblíbená barva:</label>
+    <input name="favourite-color" type="color">
+    <br/>
+    <label>Oblíbené číslo:</label>
+    <input name="favourite-number" type="text" placeholder="23">
+    <br/>
+    <label>Nejčastěji navštěvovaný web:</label>
+    <input name="website" type="text" placeholder="https://example.com">
+    <br/>
+    <label>Nejoblíbenější roční období:</label>
+    <br/>
+    <input name="favourite-season" type="radio" value="spring"> Jaro
+    <label>
+        <br/>
+        <input name="favourite-season" type="radio" value="summer"> Léto
+    </label>
+    <br/>
+    <label>
+        <input name="favourite-season" type="radio" value="autumn"> Podzim
+    </label>
+    <br/>
+    <label>
+        <input name="favourite-season" type="radio" value="winter"> Zima
+    </label>
+    <br/>
+    <label>Nejoblíbenější měsíc:</label>
+    <select>
+        <option name="favourite-month" selected>Leden</option>
+        <option>Únor</option>
+        <option>Březen</option>
+        <option>Duben</option>
+        <option>Květen</option>
+        <option>Červen</option>
+        <option>Červenec</option>
+        <option>Srpen</option>
+        <option>Září</option>
+        <option>Říjen</option>
+        <option>Listopad</option>
+        <option>Prosinec</option>
+    </select>
+    <br/>
+    <label>Všechny výše uvedené údaje jsou pravdivé:</label>
+    <input name="truthful" type="checkbox" value="yes">
+    <br/>
+    <button>Odeslat</button>
+    </form>
+    
+</body>
+</html>
