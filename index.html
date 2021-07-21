@@ -10,63 +10,84 @@
 <body>
     <form action="http://formular.itgirls.cz/" method="POST">
         <h1>Sběr dat</h1>
-    <label>Jméno:</label>
-    <input name="first-name" type="text" placeholder="John">
-    <label>Příjmení:</label>
-    <input name="surname" type="text" placeholder="Doe">
+        <div>
+                <label>Jméno:</label>
+            <input name="first-name" type="text" placeholder="John">
+            <label>Příjmení:</label>
+            <input name="surname" type="text" placeholder="Doe">
+        </div>
     <br/>
-    <label>Datum narození:</label>
-    <input name="birthdate" type="date">
+        <div>
+            <label>Datum narození:</label>
+            <input name="birthdate" type="date">
+        </div>
     <br/>
-    <label>E-mail:</label>
-    <input name="email" type="email" placeholder="john@example.com">
+
+        <div>
+            <label>E-mail:</label>
+            <input name="email" type="email" placeholder="john@example.com">
+        </div>
     <br/>
-    <label>Telefon:</label>
-    <input name="telephone" type="tel" placeholder="+420123456789">
+        <div>
+            <label>Telefon:</label>
+            <input name="telephone" type="tel" placeholder="+420123456789">
+        </div>
     <br/>
-    <label>Oblíbená barva:</label>
-    <input name="favourite-color" type="color">
+        <div>
+            <label>Oblíbená barva:</label>
+            <input name="favourite-color" type="color">
+        </div>
     <br/>
-    <label>Oblíbené číslo:</label>
-    <input name="favourite-number" type="text" placeholder="23">
+        <div>
+            <label>Oblíbené číslo:</label>
+            <input name="favourite-number" type="text" placeholder="23">
+        </div>
     <br/>
-    <label>Nejčastěji navštěvovaný web:</label>
-    <input name="website" type="text" placeholder="https://example.com">
+        <div>
+            <label>Nejčastěji navštěvovaný web:</label>
+            <input name="website" type="text" placeholder="https://example.com">
+        </div>
     <br/>
-    <label>Nejoblíbenější roční období:</label>
+        <div>
+            <label>Nejoblíbenější roční období:</label>
+                <input name="favourite-season" type="radio" value="spring"> Jaro
+                <label>
+                    <br/>
+                    <input name="favourite-season" type="radio" value="summer"> Léto
+                </label>
+                <br/>
+                <label>
+                    <input name="favourite-season" type="radio" value="autumn"> Podzim
+                </label>
+                <br/>
+                <label>
+                    <input name="favourite-season" type="radio" value="winter"> Zima
+            </label>
+        </div>
     <br/>
-    <input name="favourite-season" type="radio" value="spring"> Jaro
-    <label>
-        <br/>
-        <input name="favourite-season" type="radio" value="summer"> Léto
-    </label>
+        <div>
+            <label>Nejoblíbenější měsíc:</label>
+                <select name="favourite-month">
+                    <option value="january">Leden</option>
+                    <option value="february">Únor</option>
+                    <option value="march">Březen</option>
+                    <option value="april">Duben</option>
+                    <option value="may">Květen</option>
+                    <option value="june">Červen</option>
+                    <option value="july">Červenec</option>
+                    <option value="august">Srpen</option>
+                    <option value="september">Září</option>
+                    <option value="october">Říjen</option>
+                    <option value="november">Listopad</option>
+                    <option value="december">Prosinec</option>
+                </select>
+        </div>
     <br/>
-    <label>
-        <input name="favourite-season" type="radio" value="autumn"> Podzim
-    </label>
-    <br/>
-    <label>
-        <input name="favourite-season" type="radio" value="winter"> Zima
-    </label>
-    <br/>
-    <label>Nejoblíbenější měsíc:</label>
-    <select>
-        <option name="favourite-month" selected>Leden</option>
-        <option>Únor</option>
-        <option>Březen</option>
-        <option>Duben</option>
-        <option>Květen</option>
-        <option>Červen</option>
-        <option>Červenec</option>
-        <option>Srpen</option>
-        <option>Září</option>
-        <option>Říjen</option>
-        <option>Listopad</option>
-        <option>Prosinec</option>
-    </select>
-    <br/>
-    <label>Všechny výše uvedené údaje jsou pravdivé:</label>
-    <input name="truthful" type="checkbox" value="yes">
+        <div>
+            <label>Všechny výše uvedené údaje jsou pravdivé:</label>
+            <input name="truthful" type="checkbox" value="yes">
+        </div>
+    
     <br/>
     <button>Odeslat</button>
     </form>
